@@ -17,11 +17,47 @@
             height: 3px; 
         }
         .dob{
-            margin-left: 466px;
+            margin-left: 515px;
         }
         .date{
-            margin-left: 100px;
+            margin-left: 146px;
         }
+        .phone{
+            margin-left: 197px;
+        }
+        .phonenumber{
+            margin-left: 171px;
+        }
+        .Email{
+            margin-left: 242px;
+        }
+        .emails{
+            margin-left: 104px;
+        }
+                .lines{
+            width: 100%;
+            background-color: grey;
+            height: 3px; 
+        }
+        .payment{
+            margin-left: 171px;
+        }
+        .payments1{
+            margin-left: 120px;
+        }
+        .signature{
+           margin-left: 120px; 
+        }
+        .dofb{
+            margin-left: 255px;
+        }
+        .dofbb{
+            margin-left: 13px;
+        }
+        .signatureb{
+            margin-left: 27px;
+        }
+
     </style>
 </head>
 <body>
@@ -53,8 +89,67 @@
     <form action="#" method="post">
         <label class="full">Full Name</label><label class="dob">Date of Birth</label>
         <br>
-        <input type="text" size="60px" name="fullname"><input class="date" type="date" size="60px" name="fullname">
+        <input type="text" size="60px" name="fullname"><input class="date" type="date" size="60px" name="dob">
+        <br>
+        <br>
+        <label>Gender</label><label class="phone">Phone Number</label>
+        <label class="Email">Email</label>
+        <br>
+        <input type="radio" name="gender" value="male">Male <br> <input type="radio" name="gender" value="female">Female
+        <input class="phonenumber" type="text" size="30px" name="phonenumber">
+        <input class="emails" type="email" size="40px" name="email">
+         <br>
+         <br>
+        
+        <label class="event">Where did you hear about this virtual event?</label><br><br>
+        <input type="checkbox" name="facebook" value="facebook">Facebook  
+        <input type="checkbox" name="youtube" value="youtube">Youtube
+        <input type="checkbox" name="instagram" value="instagram">Instagram
+        <input type="checkbox" name="Twitter" value="Twitter">Twitter
+        <input type="checkbox" name="other" value="other">Other:
+        <input type="text" name="others"><br><br>
 
+        <div class="line"></div>
+
+        <br>
+        <br>
+        <H2>Payment Information</H2>
+        <label>Number of Tickets</label>
+        <label class="payment">Payment Method</label>
+        <br><br>
+        <input type="text" name="money">
+        <input class="payments1" type="radio" name="payment" value="creditcard">Credit Card 
+        <input  type="radio" name="payment" value="debitcard">Debit Card
+        <input  type="radio" name="payment" value="cash">Cash 
+        <input  type="radio" name="payment" value="check">Check
+        <br><br><br>
+        <label>I understand that participation in this event</label><label class="signature">Signature</label>
+        <input class="signatureb" type="text" height="700px" ><br>
+        <label>may involve some degree of risk. I release </label><br>
+         <label> WebinarPros LLC from any liability for injury, </label><br>
+        <label>loss,or damage to personal property.</label>
+        <br>
+        <br>
+        <input  type="radio" name="question" value="check">Yes, I understand.
+        <label class="dofb">Date Signed</label>
+        <input class="dofbb" type="date" size="60px" name="dates">
+        <br>
+        <br>
+           <div class="line"></div>
+           <br>
+           &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp
+               &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp
+               &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp
+               &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp
+           <input  type="image" src="img/facebook.png" height="30px" width="30px"> &nbsp &nbsp &nbsp&nbsp&nbsp
+
+         <input  type="image" src="img/instagram.jpg" height="30px" width="30px"> &nbsp &nbsp &nbsp&nbsp&nbsp
+         <input  type="image" src="img/linkedin.png" height="30px" width="30px"> &nbsp &nbsp &nbsp&nbsp&nbsp<br>
+<center>
+         <label>Thank you for registering! For inquiries and updates,</label><br>
+         <label>follow us at @webinarprosLLC on our social media accounts</label>
+         </center>
         <!-- Name : <input type="text" name="name"><br><br>
         Email : <input type="email" name="email"><br><br>
         Password : <input type="password" name="password"><br><br>
