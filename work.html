@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend style="border:1px solid brown; padding: 5px;">Good morning :)</legend>
+        <h3>Hello guysss!!!!!!!</h3>
+    <form id="myform" action="#" method="post">
+Name : <input type="text" name="name"><br><br>
+        Email :<select name="emails" size="4" multiple>
+        <optgroup label="software">
+            <option value="java">JAVA</option>
+            <option value="php">PHP</option>
+            <option value="python">PYTHON</option>
+            <option value="mern">MERN</option>
+            <option value="MEAN">MEAN</option>
+
+        </optgroup>
+                <optgroup label="networking">
+            <option value="java">ccna</option>
+            <option value="php">rhcsa</option>
+
+
+        </optgroup>
+        </select>
+
+
+        Password : <input type="password" name="password"><br><br>
+        DOB : <input type="date" name="date"><br><br>
+address:<textarea name="address" id="myform"></textarea>
+        Phone : <input type="tel" name="phone"><br><br>
+         Quantity : <input list= "list1"  name="Quantity"><br><br>
+         Gender : <input type="radio" name="gender" value="male">male
+         <input type="radio" name="gender" value="female">female
+         <br><br>
+             <input type="submit" formaction = "kids.jsp" value="submit to kids"><br><br>
+             <button formaction="adults.jsp">submit to adults</button><br><br>
+  
+             </form>
+        Phone : <input form="myform" type="tel" name="phone"><br><br>
+        <datalist id="list1"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></datalist>  
+        </fieldset>   
+</body>
+</html>
