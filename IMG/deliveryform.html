@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           .form1{
+            background-color:rgb(156, 188, 43);
+            padding: 10px;
+            width:556px;
+            margin-left: 142px;
+           border-radius: 2%;
+           }
+           .button{
+            padding:10px 25px;
+            border-radius:50px;
+            border:none;
+            background-color: rgb(54, 65, 23);
+            color: azure;
+            font-family: 'Times New Roman', Times, serif;
+           }
+           .field1{
+            padding:10px 25px;
+            background-color: rgb(185, 207, 106);
+            border-radius: 3%;
+
+
+           }
+           .field2{
+            padding:10px 25px;
+            background-color: rgb(185, 207, 106);
+            border-radius: 3%;
+
+
+           }
+           .field3{
+            padding:10px 25px;
+            background-color: rgb(185, 207, 106);
+            border-radius: 3%;
+
+
+           }
+           .input1{
+            margin-left: 88px;
+           }
+         .input2{
+            margin-left: 88px;
+           }
+        
+            .input3{
+            margin-left: 88px;
+           }
+        
+            .input4{
+            margin-left: 81px;
+           }
+        
+            .input5{
+            margin-left: 69px;
+           }.input6{
+            margin-left: 81px;
+           }
+           .input7{
+            margin-left: 48px;
+           }
+           .input8{
+            margin-left: 50px;
+           }
+           .input9{
+            margin-left: 48px;
+           }
+
+        
+
+    </style>
+</head>
+<body>
+
+    <form class="form1" action="#" method="post">
+       <label  class="labela"> <h3>Step 1 : Your details</h3></label>
+        <fieldset class="field1">
+            <br>
+            <label class="label1"><b>Name</b></label>
+            <input class="input1" type="text" size="30px" placeholder="First and last name"><br><br>
+            <label class="label2"><b>Email</b></label>
+            <input class="input2" type="email" size="30px" placeholder="example@domain.com"><br><br>
+            <label class="label3"><b>Phone</b></label>
+            <input class="input3" type="tel" size="30px" placeholder="Eg: +447500000000"><br><br>
+        </fieldset>
+        
+        <label  > <h3>Step 2 : Delivery address</h3></label>
+        <fieldset class="field2">
+            <br>
+            <label class="label4"><b>Address</b></label>
+            <textarea class= "input4" name="address" id="myform"></textarea><br><br>
+            <label class="label5"><b>Post Code</b></label>
+            <input  class= "input5"type="text" size="30px"><br><br>
+            <label ><b>Country</b></label>
+            <input class= "input6" list= "list1"  name="country">
+             <datalist id="list1"><option>India</option><option>Argentina</option><option>Brazil</option><option>Malasia</option><option>Portugal</option></datalist>  <br><br>
+        </fieldset>
+        <label > <h3>Step 3 : Card details</h3></label>
+        <fieldset class="field3">
+            <br>
+            <label ><b>Card type</b></label>&nbsp;&nbsp;
+            <input  type="radio" value="visa1" name="visa" >
+            <img src="https://logos-world.net/wp-content/uploads/2020/06/Visa-Logo-2006.png" width="30" height="15">&nbsp;VISA&nbsp;&nbsp;
+            <input  type="radio" value="visa2" name="visa" >
+            <img src="https://www.nicepng.com/png/full/42-421816_amex-mobile-app-logo-designer-usa-american-express.png" width="25" height="15">&nbsp;AmEx&nbsp;&nbsp;
+            <input  type="radio" value="visa2" name="visa" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb8rt8iXdjEvaMmZ8Q0s72wWDFAB_vpWhmCA&s" width="25" height="15">&nbsp;Mastercard&nbsp;&nbsp;
+<br><br>                          
+
+            <label ><b>Card number</b></label>
+            <input class="input7" type="text" size="30px"><br><br>
+            <label ><b>Security code</b></label>
+            <input class="input8" type="text" size="30px" ><br><br>
+            <label ><b>Name on card</b></label>
+            <input class="input9" type="text" size="30px" placeholder="Exact name as on the card"><br><br>
+        </fieldset>
+
+<br>
+<center><button class="button" >BUY IT!</button></center>
+    </form>
+    
+</body>
+</html>
