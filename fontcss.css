@@ -2,10 +2,85 @@
      border: 2px solid black;
      margin-left: 267px;
      margin-right: 211px;
+     padding-bottom: 261px;
+     padding-left: 10px;
+     background-color: rgb(255, 249, 238);
 
 }
-.bb{
-    list-style-image:url(https://www.freeiconspng.com/uploads/emoticons-whatsapp-kiss-hearts-png-images-8.png);
-    width:10px;
-    height:5px;
+.heading1{
+    text-shadow: 3px 1px 3px yellowgreen;
+    text-decoration: underline black 3px;
+}
+.list1{
+    list-style: none;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsIzJTQ3NSCL60wWqGqA3_eIqUxjqD10q5rg&s") no-repeat left center;
+    background-size: 19px;
+    padding-left: 35px;
+    font-style: italic;
+    color: green;
+}
+.list2{
+    list-style: none;
+    background: url("https://i.pinimg.com/736x/e6/2c/e0/e62ce01ddc2eeb88ed9c37f8c0016e54.jpg") no-repeat left center;
+    background-size: 15px;
+    padding-left: 35px;
+    font-style: italic;
+    color: orange;
+}
+.list3{
+    list-style: none;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3YHE2qcFSVC1w53OXi71qVzwlpFQOMaffKw&s") no-repeat left center;
+    background-size: 17px;
+    padding-left: 35px;
+    font-style: italic;
+    color: red;
+}
+.list4{
+    font-style: italic;
+    list-style: none;
+    background: url("https://c8.alamy.com/comp/2BWKAH5/high-quality-emoticon-on-white-background-anxious-face-with-sweat-blue-face-emoji-with-sweatscared-emoticonfear-emoji-2BWKAH5.jpg") no-repeat left center;
+    background-size: 23px;
+    padding-left: 35px;
+    color: blue;
+}
+.emotions{
+    position: relative;
+    margin-top:-138px;
+    margin-left: 297px;
+    margin-right: 20px;
+    padding-left: 10px;  
+}
+.cookiesborder{
+    border: 2px solid white ;
+    margin-top: -286px;
+    margin-left: 358px;
+    margin-right: 306px;
+    padding-left: 10px;
+    background-color: white;
+    position: fixed;
+}
+.image{
+    margin-left: 113px;
+}
+.text{
+    color: rgb(120, 116, 111);
+    margin-top: 18px;
+    margin-left: 71px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.text1{
+    margin-right: 10px;
+    color: rgb(134, 130, 126);
+}
+.button{
+     font-family:sans-serif;
+     background-color: rgb(227, 156, 84);
+     border-radius: 40px;
+     border: none;
+     color: white;
+     width:100px;
+     height: 35px;
+     font-weight: bold;
 }
