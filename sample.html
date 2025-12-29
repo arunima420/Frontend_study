@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Times of India</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        .p1 {
+            color: rgb(147, 147, 145);
+            font-size: 11px;
+            text-align: center;
+            padding: 10px 0;
+            text-transform: uppercase;
+        }
+
+        .line {
+            width: 100%;
+            background-color: #808080;
+            height: 1px; 
+            clear: both;
+        }
+
+        /* Small Logo above the main title */
+        .imgdiv {
+            text-align: center;
+            margin: 10px 0 -15px 0;
+        }
+
+        /* HEADER ROW: Obama, Title, Cricket */
+        .header-row {
+            width: 100%;
+            overflow: hidden; 
+            display: block;
+        }
+
+        .imgdiv1 {
+            float: left;
+            width: 15%; /* Reduced to give title more room */
+        }
+
+        .title-wrap {
+            float: left;
+            width: 70%; /* Increased width */
+            text-align: center;
+        }
+
+        .imgdiv2 {
+            float: left;
+            width: 15%; /* Reduced to give title more room */
+            text-align: right;
+        }
+
+        h1 {
+            font-size: 80px;
+            margin: 10px 0 0 0;
+            letter-spacing: -2px;
+            display: block;
+            white-space: nowrap; /* FORCES ONE LINE */
+            text-transform: uppercase;
+        }
+
+        .sub-header {
+            font-size: 10px;
+            color: #555;
+            margin-top: -5px;
+            text-transform: uppercase;
+        }
+
+        /* THE COLOR BOXES */
+        .colordiv {
+            clear: both;
+            width: 100%;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        .blue {
+            background-color: rgb(35, 132, 200);
+            width: 55%;
+            height: 75px; 
+            float: left;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            border-right: 2px solid white;
+        }
+
+        .orange {
+            background-color: rgb(215, 85, 53);
+            width: 45%;
+            height: 75px; 
+            float: left;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="p1">
+        BENNETT, COLEMAN & CO. LTD. | ESTABLISHED 1838 | TIMESOFINDIA.COM &nbsp;&nbsp;&nbsp; 
+        NEW DELHI | MONDAY, NOVEMBER 17, 2008 | PAGES 46 | CAPITAL | PRICE RS. 2.50
+    </div>
+
+    <div class="line"></div>
+
+    <div class="imgdiv">
+        <img src="img/toilogo.png" alt="logo" width="120px">
+    </div>
+
+    <div class="header-row">
+        <div class="imgdiv1">
+            <img src="img/barackobama.png" alt="Obama">
+        </div>
+
+        <div class="title-wrap">
+            <h1>THE TIMES OF INDIA</h1>
+            <div class="sub-header">
+                INCLUSIVE OF DELHI TIMES AND EDUCATION TIMES | EPAPER.TIMESOFINDIA.COM
+            </div>
+        </div>
+
+        <div class="imgdiv2">
+            <img src="img/cricket.png" alt="Cricket">
+        </div>
+    </div>
+
+    <div class="colordiv">
+        <div class="blue">
+            SINCE OBAMA'S VICTORY, RACIAL<br>CRIMES ON UPSWING ACROSS US | 19
+        </div>
+        <div class="orange">
+            YUVRAJ DOUBTFUL FOR TODAY'S ODI;<br>PIETERSEN HOPING HE'LL SIT OUT | 25
+        </div>
+    </div>
+
+</body>
+</html>

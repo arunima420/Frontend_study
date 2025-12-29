@@ -1,0 +1,11 @@
+.mainborder{
+     border: 2px solid black;
+     margin-left: 267px;
+     margin-right: 211px;
+
+}
+.bb{
+    list-style-image:url(https://www.freeiconspng.com/uploads/emoticons-whatsapp-kiss-hearts-png-images-8.png);
+    width:10px;
+    height:5px;
+}
